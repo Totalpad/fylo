@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <section
       id="hero"
-      className=" bg-curvy-light-mode dark:bg-curvy-dark-mode bg-contain bg-bottom bg-no-repeat"
+      className=" bg-curvy-light-mode bg-contain bg-bottom bg-no-repeat dark:bg-curvy-dark-mode"
     >
       <div
         className="container mx-auto px-6 pb-52 text-center md:pt-20
@@ -19,7 +19,7 @@ function HeroSection() {
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
         </p>
-        <button className="bg-accentCyan w-52 rounded-full p-3 hover:scale-95">
+        <button className="w-52 rounded-full bg-accentCyan p-3 duration-150 hover:scale-95">
           Get Started
         </button>
       </div>
